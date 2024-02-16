@@ -408,15 +408,13 @@ endfunction
 "let g:ycm_keep_logfiles = 1
 "let g:ycm_log_level = 'debug'
 "let g:ycm_error_symbol = '>>'
-"let g:ycm_confirm_extra_conf = 1
+"let g:ycm_confirm_extra_conf = 0
 "let g:ycm_auto_trigger = 1
 "let g:ycm_min_num_of_chars_for_completion = 1
-let g:ycm_global_ycm_extra_conf = '/home/esebjec/.ycm_extra_conf.py'
-let g:ycm_add_preview_to_completeopt = 1
 "-------------------Plugins--------------------------
 call plug#begin('~/.vim/plugged')
 
-Plug 'valloric/youcompleteme', { 'branch': 'legacy-py2' }
+"Plug 'valloric/youcompleteme', { 'branch': 'legacy-py2' }
 
 Plug 'altercation/vim-colors-solarized'
 
@@ -478,6 +476,7 @@ Plug 'altercation/vim-colors-solarized'
 
  Plug 'liuchengxu/graphviz.vim'
 
+ Plug 'Exafunction/codeium.vim'
  Plug 'ojroques/vim-oscyank', {'branch': 'main'}
 
 " " Add plugins to &runtimepath
